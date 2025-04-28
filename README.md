@@ -40,7 +40,7 @@ int main() {
         sleep(2);  // Keep child alive for verification
     } else { 
         printf("I am parent, my PID is %d\n", getpid()); 
-        wait(NULL); 
+        wait(NULL);  
     }
 }
 
